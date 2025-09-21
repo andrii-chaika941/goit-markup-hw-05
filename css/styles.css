@@ -521,12 +521,14 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
   min-height: 584px;
   transform: translate(-50%, -50%);
   background-color: #fcfcfc;
   border-radius: 4px;
-  padding: 24px 72px 24px 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 72px;
 }
 
 .modal-form {
@@ -540,12 +542,12 @@ ul {
 .modal-close-btn {
   position: absolute;
   border-radius: 100%;
+  width: 24px;
+  height: 24px;
   top: 24px;
   right: 24px;
   background-color: #E7E9FC;
-  border: none;
-  stroke: rgba(0, 0, 0, 0.1);
-  stroke-width: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .modal-icon-btn {
@@ -573,4 +575,36 @@ ul {
 
 .active {
   border-color: #4D5AE5;
+}
+
+.modal-field {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.modal-icon {
+  position: absolute;
+  fill: #2E2F42;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
+
+.modal-textarea {
+  resize: none;
+  border-radius: 4px;
+  width: 100%;
+  padding-left: 12px;
+  padding-top: 8px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
 }
