@@ -674,10 +674,6 @@ ul {
   fill: #4D5AE5;
 }
 
-.active {
-  border-color: #4D5AE5;
-}
-
 .modal-field {
   display: flex;
   flex-direction: column;
