@@ -755,6 +755,7 @@ ul {
 
 .submit-btn {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
@@ -767,6 +768,7 @@ ul {
   line-height: 1.5;
   font-weight: 500;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .submit-btn:hover {
@@ -774,9 +776,6 @@ ul {
 }
 
 .checkbox-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   letter-spacing: 0.04em;
   color: #8E8F99;
   line-height: 1.17;
