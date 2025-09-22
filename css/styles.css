@@ -780,10 +780,10 @@ ul {
   color: #8E8F99;
   line-height: 1.17;
   font-size: 12px;
+}
 
-  a {
-    color: #4d5ae5;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-  }
+.policy-link {
+  color: #4d5ae5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
