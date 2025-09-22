@@ -783,6 +783,7 @@ ul {
   font-size: 12px;
 
   a {
+    color: #4d5ae5;
     text-decoration: underline;
     text-decoration-skip-ink: none;
   }
